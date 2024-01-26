@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facelite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="navleft">
+            <a>Facelite</a>
+        </div>
+        <div class="navmid">
+            <input type="text" placeholder="search for friends" class="search-bar">
+        </div>
+        <div class="navright">
+            <button>Create</button>
+            <div class="log">
+                <img src="images/profile3.jpg" alt="">
+            </div>
+        </div>
+    </nav>
+    <!-- main part started  -->
+    <main>
+        <div class="container">
+            <!-- left part of the window -->
+            <div class="main-left">
+                <!-- profile option -->
+                <a href="" class="profile">
+                    <div class="log">
+                        <img src="images/profile3.jpg" alt="">
+                    </div>
+                    <div class="handler">
+                        <h2>Sangram Senapati</h2>
+                        <p class="text-muted">@sangram</p>
+                    </div>
+                </a>
+
+                <!-- left part other options -->
+                <div class="sidebar">
+                    <a class="menu-item ">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Home</h3>
+                    </a>
+                    <a class="menu-item ">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Explore</h3>
+                    </a>
+                    <a class="menu-item ">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Notification</h3>
+                    </a>
+                    <a class="menu-item ">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Messages</h3>
+                    </a>
+                    <a class="menu-item ">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item ">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item ">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Theme</h3>
+                    </a>
+                    <a class="menu-item ">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Settings</h3>
+                    </a>
+
+                    <button class="btn"> Create Post</button>
+
+                </div>
+            </div>
+            <!-- left part completed now its middle part of the window -->
+            <div class="main-mid">
+                <div class="stories">
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile3.jpg" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <!-- other stories rendering from js -->
+
+                    
+
+                </div>
+
+                <form class="mid-search">
+                    <div class="log"><img src="images/profile3.jpg" alt=""></div>
+                    <div class="search-post">
+                        <input type="text" placeholder="What's on your mind, Diana?" id="create-post">
+                        <input type="submit" value="post" class="btn btn-primary">
+                    </div>
+                </form>
+
+                <div class="feeds">
+                    <!-- rendrering here feeds-->
+                    
+                </div>
+            </div>
+
+            <div class="main-right">
+                <div class="messages">
+
+                    <div class="heading">
+                        <p>Messages</p>
+                    </div>
+                    <!-- Message Search bar  -->
+                    <div class="search-box">
+                        <input type="text" placeholder="Search messaage">
+                    </div>
+                    <!-- Message Category choose option -->
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="msg-request">Requests(7)</h6>
+                    </div>
+
+                    <!-- message popup with profile picture -->
+
+
+                    <!-- second rendering start for messages -->
+                    
+                </div>
+
+                <!-- right side lower part showing requests -->
+                <div class="frnd-requests">
+                    <h4>Requests</h4>
+                    <!-- one segment of friend request -->
+                    
+                    <!-- render for frnd requests -->
+
+                    <!-- friendrequest part completed -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+<script src="feeds.js"></script>
+<script src="msgs.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
